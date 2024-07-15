@@ -72,13 +72,11 @@ A web application built using the MERN stack to analyze GitHub profiles for spec
    5. Click "Generate token".
    6. Copy the generated token.
 
-2. **Environment Variables:**
 
-   Create a `.env` file in the `server` directory and add the following:
 
-    ```sh
-    GITHUB_TOKEN=your_github_access_token
-    ```
+  Add your github token in analyzeprofile.js file line number 6
+
+  
 
 ### Running the Application
 
