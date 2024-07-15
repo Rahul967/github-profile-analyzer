@@ -3,7 +3,7 @@ const { checkHumanFace } = require('./checkHumanFace');
 require('dotenv').config();
 
 const GITHUB_GRAPHQL_API = 'https://api.github.com/graphql';
-const GITHUB_TOKEN = process.env.GITHUB_TOKEN;
+const GITHUB_TOKEN = ;//add your github token here directly not by importing from .env file.
 
 const commonSkills = [
   'JavaScript', 'Python', 'Java', 'C++', 'C#', 'Ruby', 'PHP', 'Swift', 'Kotlin', 
